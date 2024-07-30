@@ -1,0 +1,197 @@
+@media screen and (max-width: 992px) {
+  
+    .navbar_menu{
+        display: none;
+    }
+    .contacts{
+ 
+        background: var(--Primary-500, #50945D);
+        display: flex;
+        gap: 30px;
+       
+        align-items: center;
+    }
+    .menu_icon_box{
+        z-index: 2;
+        width: fit-content;
+        height: auto;
+        background-color: #e9e3e3;
+        margin: 30px;
+        position: absolute;
+        top:28px;
+        right: -30px;
+        right: 0;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: 0.2s;
+        display: block;
+       
+    }
+    .box{
+        width: fit-content;
+        background-color: #416e44;
+        position: relative;
+        right: 10px;
+        text-align: left;
+        z-index: 1;
+        opacity: 0;
+        top: -500px;
+        pointer-events: none;
+        transition: 0.3s;
+        float: right;
+        border-radius: 10px;
+        display: flex;
+        
+        
+    
+      
+        
+       
+    }
+ 
+
+  
+   
+  }
+  @media screen and (max-width: 768px) {
+ 
+    .contacts{
+ 
+        background: var(--Primary-500, #50945D);
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        
+        align-items: center;
+    }
+    .header{
+        width: 100%;
+        height: 168px;
+        background: var(--White-500, #FFF);
+    
+    }  .menu_icon_box{
+        z-index: 2;
+        width: fit-content;
+        height: auto;
+        background-color: #e9e3e3;
+        margin: 30px;
+        position: absolute;
+        top:78px;
+        right: -30px;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: 0.2s;
+        display: block;
+       
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .appointment_btn{
+        width: 90px;
+        height: 40px;
+        border-radius: 10px;
+        background: var(--Primary-500, #50945D);
+        color: var(--White-500, #FFF);
+    /* Body-1 Regular */
+    font-family: Roboto;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    cursor: pointer;
+    border: none;
+    
+    
+      }
+      .login_btn{
+        border-radius: 10px;
+    border: 1px solid var(--Primary-500, #50945D);
+    width: 78px;
+    height: 40px;
+    
+    color: var(--Primary-500, #50945D);
+    /* Body-1 Regular */
+    font-family: Roboto;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
+    cursor: pointer;
+      
+    
+      }
+     
+   
+    .group_56{
+        width: 100px;
+    height: 21.975px;
+    flex-shrink: 0;
+    
+    }
+    .group_56 svg{
+       width: 100%;
+    }
+    .navbar_logos{
+        display: flex;
+      
+        align-items: center;
+     
+      
+        flex-shrink: 0;
+    }
+    .navbar{
+        display: flex;
+
+    justify-content: flex-start;
+        align-items: center;
+    
+    }
+    .sosials svg{
+        display: inline-block;
+        width: 15px;
+        height: 15px;
+    }
+     .number svg,.email svg {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        color: #FFFFFF;
+        }
+    
+    .number,.email{
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+    .number span,.email span{
+        color: var(--White-500, #FFF);
+    text-align: center;
+    /* Body-1 Regular */
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    }
+    .profile button{
+        display: flex;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    border: none;
+      }
+      nav ul li a{
+        font-size: 15px;
+      }
+      nav{
+        font-size: 15px;
+      }
+      nav svg{
+        font-size: 15px;
+      }
+     
+  }

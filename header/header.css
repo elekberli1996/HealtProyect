@@ -91,6 +91,7 @@ height: 41.631px;
 flex-shrink: 0;
 }
 .union svg{
+    
     display: inline-block;
 }
 .group_56{
@@ -140,11 +141,13 @@ cursor: pointer;
   .dropdown-content {
     display: none;
     position: absolute;
+    left: -20px;
     background-color: #f9f9f9;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     padding: 12px 16px;
-    z-index: 1;
+    z-index: 3;
+    border-radius: 10px;
   }
   
   .dropdown:hover .dropdown-content {
@@ -200,3 +203,89 @@ border: none;
     align-items: center;
    gap: 70px;
   }
+  .box{
+    width: fit-content;
+    background: var(--Primary-500, #50945D);
+    position: relative;
+    right: 10px;
+    text-align: left;
+    z-index: 1;
+    opacity: 0;
+    top: -500px;
+    pointer-events: none;
+    transition: 0.3s;
+    float: right;
+    border-radius: 10px;
+    display: none;
+    
+    
+
+  
+    
+   
+}
+.active.box{
+    opacity: 1;
+    top: 0px;
+    pointer-events: fill;
+}
+.menu_icon_box{
+    z-index: 2;
+    width: fit-content;
+    height: auto;
+    background-color: #e9e3e3;
+    margin: 30px;
+    position: absolute;
+    top:28px;
+    right: 0;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.2s;
+    display: none;
+   
+   
+}
+.line1, .line2, .line3{
+    width: 40px;
+    height: 4px;
+    margin: 10px 8px;
+    background-color: #000;
+    border-radius: 50px;
+    transition: 0.2s;
+}
+.active .line1{
+    transform: translate(0px,15px)rotate(45deg);
+}
+.active .line2{
+    opacity: 0;
+}
+.active .line3{
+    transform: translate(0px,-15px)rotate(-45deg);
+}
+nav{
+    padding-top: 10px;
+    font-size: 20px;
+}
+nav ul{
+    margin: 0px 30px;
+}
+nav ul li{
+    list-style: none;
+    margin-bottom: 30px;
+    transition: 0.2s;
+}
+nav ul li:hover{
+   background-color: rgb(16, 201, 78);
+   border-radius: 8px;
+}
+.menu_icon_box:hover{
+    background-color: #50945D;
+}
+nav ul li a{
+    color: #000;
+    font-size:20px ;
+    padding: 10px 30px;
+    display: block;
+    text-decoration: none;
+}
+
