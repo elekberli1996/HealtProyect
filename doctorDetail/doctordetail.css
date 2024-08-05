@@ -519,6 +519,7 @@ body {
 .section-book-an-appointment {
   position: absolute;
   top: 0;
+ right: 0;
   background-color:rgba(253, 251, 251, 0.9);
   z-index: 2;
   display: none;
@@ -630,6 +631,7 @@ textarea::placeholder {
 .section-book-an-appointment-confirmed {
   position: absolute;
   top: 0;
+  right: 0;
   display: none;
   background-color: #FFF;
   width: 492px;
