@@ -28,11 +28,13 @@
 .hero_part1{
     margin-top: 150px;
     margin-left: 80px;
+    width: calc( 1440px / 2 );
 }
 .hero_part2{
    
-    margin-right: 80px;
+   margin-right: 80px;
    position: relative;
+   width: calc( 1440px / 2 );
 }
 .certificated{
     color: var(--Primary-500, #50945D);
@@ -219,14 +221,16 @@ line-height: 30px; /* 150% */
 .main_best_quality_service
 {
     width: 1345px;
-    max-width: 100%;
-    display: inline-flex;
+    max-width: 95%;
+    display: flex;
+    margin: 0 auto;
     padding: 70px 103px;
     flex-direction: column;
     align-items: center;
     gap: 10px;
-    background: var(--primary-primary-5, rgba(80, 148, 93, 0.05));
-    margin: 0 auto;
+    margin-top: 30px;
+    background: var(--primary-primary-5, rgba(17, 27, 19, 0.05));
+ 
     
 }
 .best_quality_service{
@@ -342,6 +346,7 @@ line-height: 26px; /* 162.5% */
 
 .favorite_doctor{
     width: 1190.111px;
+    max-width: 100%;
     margin-left: 99px;
     margin-right: 150px;
     margin-top: 150px;
@@ -378,6 +383,9 @@ gap: 5px;
 .favorite_doctor_part1{
     position: relative;
     margin-left: 100px;
+    width: 700px;
+    height: 500px;
+   
 }
 .favorite_doctor_img{
     position: absolute;
@@ -438,7 +446,7 @@ border-radius: 100%;
 .favorite_doctor_part2{
     margin-left: 100px;
     display: flex;
-width: 560px;
+    width: calc(1440px / 2 -25px);
 flex-direction: column;
 align-items: flex-start;
 gap: 50px;
@@ -526,6 +534,7 @@ background: var(--Primary-500, #50945D);
 
 .book_an_appointment{
     width: 1207.578px;
+    max-width:100%;
 height: 679px;
 margin-left: 130px;
 margin-right: 83px;
@@ -541,7 +550,7 @@ margin-right: 83px;
 
 .book_an_appointment_part2{
     position: relative;
-    
+    width: calc(1440px / 2 -25px);
 flex-shrink: 0;
 }
 .book_doctor_svg{
@@ -894,6 +903,7 @@ flex-shrink: 0;
 
    .meet_our_specialist{
     width: 1140px;
+    max-width: 90%;
     margin: 20px 105px;
     display: flex;
     flex-direction: column;
@@ -1028,7 +1038,8 @@ line-height: 26px; /* 162.5% */
   .clients{
     margin-top: 50px;
     display: flex;
-    
+    width: 1440px;
+    max-width: 95%;
   }
 
   .client_icons{
@@ -1038,11 +1049,12 @@ line-height: 26px; /* 162.5% */
    
   }
   .cleint{
-    padding: 20px;
+    padding: 10px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap:10px;    
+    gap:10px; 
+    width: 600px;   
   }
   .client p{
     color: var(--Dark-500, #0E140F);

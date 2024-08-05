@@ -1,0 +1,179 @@
+@media screen and (max-width: 1350px) {
+    .hero_section{
+        
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 300px;
+        margin-top: 200px;
+        width: calc( 1440px/2);
+        margin: 0 auto;
+        margin-top: 250px;
+    }
+    .hero_part1{
+        margin-top: 0px;
+        margin-left: 0px;
+        width: calc( 1440px / 2 );
+    }
+    .hero_part2{
+       
+       margin-right: 0px;
+       position: relative;
+       width: calc( 1440px / 2 );
+    }
+    .carts_part1{
+        display: flex;
+        flex-direction: column;
+    align-items: center;
+    gap: 21px;
+    }
+    .carts_part2{
+        display: flex;
+        flex-direction: column;
+    align-items: center;
+    gap: 21px;
+    }
+    .favorite_doctor{
+        width: calc( 1190.111px / 2) ;
+        margin: 0 auto;
+          
+      
+    height: 608px;
+    flex-shrink: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        margin-bottom: 500px;
+       
+      
+    
+    }
+    
+    .favorite_doctor_part1{
+        background-color: rgb(2, 2, 2);
+        
+    }
+    .favorite_doctor_part2{
+        margin-top: 500px;
+
+    }
+    .favorite_doctor_quick_view{
+        position: absolute;
+       top: 300px;
+        left: -30px;
+
+    }
+    .doctor_background{
+        position: absolute;
+        left: 0;
+        top: 90px;
+        z-index: 1;
+    
+    }
+    .book_an_appointment{
+        width: calc(   1207.578px / 2);
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       gap: 30px;
+       margin: 0;
+       margin-bottom: 600px;
+       width: auto;
+    }
+    .specialists{
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 0px;
+        width: auto;
+        
+       }
+       
+       :root{
+        --col-:2;
+       }
+    .specialist{
+       width: calc(1140px/var(--col-) - 30px ); 
+        height: 431px;
+        
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+
+     .clients{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+     }
+     .main_best_quality_service
+{
+    width: calc(1345px / 2 ) ;
+    max-width: 95%;
+   
+
+    display:flex;
+    padding: 70px 103px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background: var(--primary-primary-5, rgba(80, 148, 93, 0.05));
+    margin: 0 auto;
+    margin-top: 250px;
+  
+    
+}
+.meet_our_specialist{
+   
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+   }
+   .client_say{
+    width:calc( 1140px / 2)  ;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+   
+    
+ 
+  }
+  @media screen and (max-width: 768px) {
+ body{
+    background-color: aqua;
+ }
+ .hero_section{
+    margin-top: 350px;
+    width: calc( 1440px/4);
+ }
+ .maps{
+    display: flex;
+    flex-direction: column;
+   align-items: flex-start;
+
+}
+.meet_our_specialist{
+    width: calc(1440px / 2 );
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+   }
+  
+  }
+  @media only screen and (max-width: 600px) {
+
+  }

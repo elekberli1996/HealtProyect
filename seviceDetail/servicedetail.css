@@ -10,7 +10,8 @@
 .service_detail_container  { 
 	width: 1440px;
     max-width: 100%;
-    padding: 0 150px; 
+ 
+
 } 
 
 .service_head_img{
@@ -166,6 +167,8 @@ gap: 20px;
   .service_card_detail{
     display: flex;
     gap: 20px;
+    justify-content: center;
+    margin: 0 auto;
   }
 .service_card_detail_part1{
   padding-left: 40px;
