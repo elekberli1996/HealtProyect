@@ -149,9 +149,7 @@
  
   }
   @media screen and (max-width: 768px) {
- body{
-    background-color: aqua;
- }
+
  .hero_section{
     margin-top: 350px;
     width: calc( 1440px/4);
