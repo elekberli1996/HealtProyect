@@ -10,10 +10,7 @@
 .blog_detail_container  { 
 	width: 1440px;
     max-width: 100%;
-    padding: 0 150px;
  
-  
-   
 } 
 
 
@@ -297,11 +294,14 @@ color: #FFF;
   }
   .blog_card_detail{
     display: flex;
+    justify-content: center;
+    margin: 0 auto;
   }
 .blog_card_detail_part2{
   padding-left: 40px;
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
   gap: 30px;
 }
   .blog_search{
